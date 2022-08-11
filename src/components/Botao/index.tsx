@@ -6,7 +6,7 @@ interface Props {
     onClick?: () => void,
     children?: React.ReactNode
   } 
-  
+  // {this.props} => é a forma que pegamos o objeto da props
   //botão está sendo usado no fomrulário e no relógio
   function Botao({ onClick, type, children }: Props) {
     return (
